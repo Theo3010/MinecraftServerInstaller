@@ -77,7 +77,7 @@ def discordBot(channelId):
                 await asyncio.sleep(1800)
 
     client.loop.create_task(update_stats(channelId))
-    client.run("ODYyMjEyNTk1NTUyNDg1Mzg3.YOVEDQ.z3ZJdIb5WoGBvfE7DuPRqp4bWlE")
+    client.run({KEY}) # THIS WILL NOT WORK BECAUSE IT NEEDS A DISCORD KEY
 
 
 def startServer(RAM, serverName):
