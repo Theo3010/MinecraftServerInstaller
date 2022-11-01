@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 def InstallStartServer(path): # NOT DONE
     # url for the correct version
-    url = "https://www.dropbox.com/s/ale0u27sjidkq6q/ngroktesting.exe?dl=1"
+    url = "https://www.dropbox.com/s/1xg96sj9wa3xi03/StartServerNgrok.py?dl=1"
     
     r = requests.get(url, allow_redirects=True)
     if str(r.status_code) == "420":
